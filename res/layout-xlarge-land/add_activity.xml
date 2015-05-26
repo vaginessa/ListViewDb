@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+         <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:gravity="center_horizontal" 
+                    android:layout_marginTop="50dp" >
+
+             <EditText
+                    android:id="@+id/frst_editTxt"
+                    android:layout_width="500dp"
+                    android:layout_height="75dp"
+                    android:inputType="textCapWords"
+                    android:hint="Nombre"
+                    android:textSize="26sp" />
+             
+       </LinearLayout>
+
+         <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:gravity="center_horizontal" >
+
+             <EditText
+                    android:id="@+id/last_editTxt"
+                    android:layout_width="500dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="20dp"
+                    android:inputType="phone"
+                    android:maxLength="9"
+                    android:hint="Teléfono"
+                    android:textSize="26sp" />
+             
+       </LinearLayout>
+
+               <Button
+                    android:id="@+id/save_btn"
+                    android:layout_width="140dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:textSize="26sp"
+                    android:text="Guardar"
+                    android:textColor="#000" />
+
+  </LinearLayout>
+
